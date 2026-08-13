@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Nexa AI</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="app">
+
+        <!-- SIDEBAR -->
+        <aside class="sidebar">
+
+            <div class="sidebar-top">
+
+                <div class="brand">
+                    <div class="brand-icon">N</div>
+                    <span>Nexa AI</span>
+                </div>
+
+                <button id="newChatBtn" class="new-chat">
+                    <span>+</span>
+                    New Chat
+                </button>
+
+            </div>
+
+            <div class="chat-history">
+
+                <p class="history-title">Recent Chats</p>
+
+                <div id="historyList">
+                    <!-- Chat history will appear here -->
+                </div>
+
+            </div>
+
+            <div class="sidebar-bottom">
+
+                <button class="sidebar-button">
+                    ⚙ Settings
+                </button>
+
+                <div class="user-profile">
+                    <div class="avatar">U</div>
+
+                    <div>
+                        <strong>User</strong>
+                        <small>Free Plan</small>
+                    </div>
+                </div>
+
+            </div>
+
+        </aside>
+
+
+        <!-- MAIN CONTENT -->
+        <main class="main">
+
+            <!-- TOP BAR -->
+            <header class="topbar">
+
+                <button id="menuBtn" class="menu-button">
+                    ☰
+                </button>
+
+                <div class="model-selector">
+                    <span>Nexa</span>
+                    <small>AI</small>
+                </div>
+
+            </header>
+
+
+            <!-- CHAT AREA -->
+            <section id="chatArea" class="chat-area">
+
+                <!-- WELCOME SCREEN -->
+                <div id="welcomeScreen" class="welcome">
+
+                    <div class="welcome-icon">
+                        N
+                    </div>
+
+                    <h1>How can I help you?</h1>
+
+                    <p>
+                        Ask Nexa anything. Start a conversation below.
+                    </p>
+
+                    <div class="suggestions">
+
+                        <button class="suggestion">
+                            💡 Explain something to me
+                        </button>
+
+                        <button class="suggestion">
+                            💻 Help me write code
+                        </button>
+
+                        <button class="suggestion">
+                            📚 Help with my homework
+                        </button>
+
+                        <button class="suggestion">
+                            ✍️ Help me write something
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- INPUT AREA -->
+            <div class="input-container">
+
+                <div class="input-box">
+
+                    <textarea
+                        id="messageInput"
+                        placeholder="Message Nexa..."
+                        rows="1"
+                    ></textarea>
+
+                    <button id="sendBtn" class="send-button">
+                        ↑
+                    </button>
+
+                </div>
+
+                <p class="disclaimer">
+                    Nexa AI can make mistakes. Check important information.
+                </p>
+
+            </div>
+
+        </main>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
