@@ -107,7 +107,7 @@ else if (
     question.includes("thanks")
 ) {
 
-    response = `You're welcome! 😊`;
+    response = `You're welcome anytime! 😊`;
 
 }
 
