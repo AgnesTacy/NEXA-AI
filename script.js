@@ -48,51 +48,261 @@ function sendMessage() {
 
     const question = message.toLowerCase();
 
-    if (question.includes("how can i get a girlfriend irl")) {
+    if (
+    question.includes("hello") ||
+    question.includes("hi") ||
+    question.includes("hey")
+) {
 
-        response = `Getting a girlfriend isn't really about finding a specific trick or method. It's more about meeting people, getting to know them naturally, and building a genuine connection.
+    response = `Hello! 👋 I'm Nexa. How can I help you today?`;
+
+}
+
+else if (
+    question.includes("how are you") ||
+    question.includes("how are you doing")
+) {
+
+    response = `I'm doing great! Thanks for asking. I'm ready to chat with you.`;
+
+}
+
+else if (
+    question.includes("who are you") ||
+    question.includes("what are you")
+) {
+
+    response = `I'm Nexa, a simple AI assistant created as a personal project. I'm still learning, but I'm getting better!`;
+
+}
+
+else if (
+    question.includes("what is your name") ||
+    question.includes("your name")
+) {
+
+    response = `My name is Nexa! Nice to meet you.`;
+
+}
+
+else if (
+    question.includes("good morning")
+) {
+
+    response = `Good morning! ☀️ I hope you're having a great day.`;
+
+}
+
+else if (
+    question.includes("good night")
+)
+ {
+
+    response = `Good night! 🌙 Get some good rest and take care of yourself.`;
+
+}
+
+else if (
+    question.includes("thank you") ||
+    question.includes("thanks")
+) {
+
+    response = `You're welcome! 😊`;
+
+}
+
+else if (
+    question.includes("bye") ||
+    question.includes("goodbye")
+) {
+
+    response = `Goodbye! 👋 I'll be here whenever you want to chat again.`;
+
+}
+
+else if (
+    question.includes("what can you do") ||
+    question.includes("what do you do")
+) {
+
+    response = `I can answer simple questions, chat with you, explain basic topics, and help with simple tasks. I'm still a work in progress, though!`;
+
+}
+
+else if (
+    question.includes("favorite color")
+) {
+
+    response = `I don't really have a favorite color, but I think blue looks pretty nice. 💙`;
+
+}
+
+else if (
+    question.includes("favorite food")
+) {
+
+    response = `I can't actually eat, but if I could, I'd probably want to try pizza. 🍕`;
+
+}
+
+else if (
+    question.includes("do you like music") ||
+    question.includes("favorite music")
+) {
+
+    response = `I can't listen to music the way people do, but music is definitely an interesting topic. There are so many different genres and styles! 🎵`;
+
+}
+
+else if (
+    question.includes("tell me a joke") ||
+    question.includes("joke")
+) {
+
+    response = `Why did the computer go to the doctor?
+
+Because it had a virus! 💻😂`;
+
+}
+
+else if (
+    question.includes("what is 2 + 2") ||
+    question.includes("what is 2+2")
+) {
+
+    response = `2 + 2 = 4. Pretty easy one! 😄`;
+
+}
+
+else if (
+    question.includes("what is ai") ||
+    question.includes("what does ai mean")
+) {
+
+    response = `AI stands for Artificial Intelligence. It's technology designed to perform tasks that normally require some form of human intelligence, such as understanding language, recognizing patterns, or solving problems.`;
+
+}
+
+else if (
+    question.includes("what is a computer")
+) {
+
+    response = `A computer is an electronic device that processes information. It can run programs, store data, perform calculations, and communicate with other devices. 💻`;
+
+}
+
+else if (
+    question.includes("what is javascript")
+) {
+
+    response = `JavaScript is a programming language commonly used to make websites interactive. That's actually what we're using to make me work!`;
+
+}
+
+else if (
+    question.includes("what is html")
+) {
+
+    response = `HTML stands for HyperText Markup Language. It's used to create the basic structure of webpages.`;
+
+}
+
+else if (
+    question.includes("what is css")
+) {
+
+    response = `CSS stands for Cascading Style Sheets. It's used to control how webpages look, including colors, spacing, fonts, layouts, and animations.`;
+
+}
+
+else if (
+    question.includes("why is the sky blue")
+) {
+
+    response = `The sky appears blue because Earth's atmosphere scatters blue light from the Sun more strongly than most other visible colors. 🌎`;
+
+}
+
+else if (
+    question.includes("tell me a fact") ||
+    question.includes("random fact")
+) {
+
+    response = `Here's a random fact: Octopuses have three hearts! 🐙`;
+
+}
+
+else if (
+    question.includes("what is the biggest planet")
+) {
+
+    response = `Jupiter is the largest planet in our Solar System. 🪐`;
+
+}
+
+else if (
+    question.includes("what is the closest planet to the sun")
+) {
+
+    response = `Mercury is the closest planet to the Sun. ☀️`;
+
+}
+
+else if (
+    question.includes("how many days are in a year")
+) {
+
+    response = `A normal year has 365 days. A leap year has 366 days. 📅`;
+
+}
+
+else if (
+    question.includes("how can i get a girlfriend irl")
+) {
+
+    response = `Getting a girlfriend isn't really about finding a specific trick. It's more about meeting people, getting to know them naturally, and building a genuine connection.
 
 Try starting by:
-• Talking to people in places you already go, such as school or clubs.
+• Talking to people in places you already go.
 • Finding people who share your interests.
-• Being friendly and actually listening when someone talks.
-• Taking your time instead of immediately trying to turn a friendship into a relationship.
+• Being friendly and listening when someone talks.
+• Taking your time instead of rushing into a relationship.
 • Respecting their feelings if they aren't interested.
 
-Most importantly, don't feel like you need a girlfriend to prove something about yourself. Focus on becoming someone who is comfortable talking to and respecting other people. Relationships tend to develop more naturally that way.`;
+You don't need a relationship to prove something about yourself. Focus on being a good friend and a respectful person, and relationships can develop naturally.`;
 
-    }
+}
 
-    else if (question.includes("why is it hard socializing")) {
+else if (
+    question.includes("socializ") ||
+    question.includes("talking to people") ||
+    question.includes("making friends")
+) {
 
-        response = `Socializing can be difficult for a lot of people because it requires several skills at once: starting conversations, thinking of what to say, reading reactions, and dealing with the possibility of being judged or misunderstood.
+    response = `Socializing can be difficult because it involves several skills at once, such as starting conversations, thinking of what to say, listening, and dealing with the possibility of awkward moments.
 
-Some things that can make it easier are:
-• Start with small conversations instead of trying to become close immediately.
-• Ask questions about things the other person is interested in.
-• Listen instead of worrying about what you're going to say next.
-• Don't worry about making every conversation perfect.
-• Practice talking to different people regularly.
+Try starting with small conversations, asking about things people are interested in, and listening instead of worrying about having the perfect response.
 
-Being awkward sometimes doesn't mean you're bad at socializing. Communication is a skill, and it can improve with practice.`;
+Being awkward sometimes doesn't mean you're bad at socializing. Communication is a skill that can improve with practice.`;
 
-    }
+}
 
-    else if (question.includes("why do people rely on ai nowadays")) {
+else if (
+    question.includes("why do people rely on ai") ||
+    question.includes("why do people use ai")
+) {
 
-        response = `People rely on AI nowadays because it is fast, convenient, and available almost anytime. AI can help people find information, explain difficult topics, brainstorm ideas, translate languages, write code, and automate repetitive tasks.
+    response = `People use AI because it's fast, convenient, and available almost anytime. It can help explain topics, brainstorm ideas, write code, translate languages, and automate repetitive tasks.
 
-However, relying on AI too much can have disadvantages. People may stop practicing skills themselves or accept an answer without checking whether it is correct.
+However, relying on it too much can mean people practice their own skills less. AI works best as a tool that helps people think and learn rather than completely replacing their own judgment.`;
 
-The best approach is to use AI as a tool rather than a replacement for your own thinking. You can use it to learn, explore ideas, and get assistance while still making your own decisions and checking important information.`;
+}
 
-    }
+else {
 
-    else {
+    response = `I'm Nexa! I don't have an answer programmed for that question yet, but we're adding more responses all the time. Try asking me something else!`;
 
-        response = `I'm Nexa, your AI assistant! I don't have a specific answer programmed for that question yet, but we're going to keep expanding my knowledge as we build the project.`;
-
-    }
+}
 
     addMessage("ai", response);
 
